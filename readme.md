@@ -10,6 +10,7 @@ Estrutura do Repositório
 
 O projeto está organizado da seguinte forma:
 
+```
 📦 portfolio
 ┣ 📂 images # Ícones e imagens utilizadas no projeto
 ┣ 📂 styles # Arquivos CSS
@@ -19,7 +20,7 @@ O projeto está organizado da seguinte forma:
 ┃ ┗ 📜 footer.css # Estilos do rodapé
 ┣ 📜 index.html # Página principal do portfólio
 ┗ 📜 README.md # Documentação do projeto
-
+```
 ## Design & Estilos
 
 O design segue um estilo minimalista, com a fonte **Fira Code**, cores sóbrias e um layout responsivo. Algumas cores principais usadas:
