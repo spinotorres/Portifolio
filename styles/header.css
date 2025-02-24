@@ -1,0 +1,75 @@
+header {
+    color: #607B96;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    height: 40px;
+    border-bottom: 1px solid #607B96;
+    font-size: 16px;
+}
+
+.ola a,
+.sobre-mim a,
+.projetos a,
+.fale-comigo a {
+    text-decoration: none;
+    color: #607B96;
+}
+
+.ola a:hover,
+.sobre-mim a:hover,
+.projetos a:hover,
+.fale-comigo a:hover {
+    color: white;
+}
+
+.header-right-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nome {
+    padding-right: 50px;
+    padding-left: 20px;
+    border: none;
+    border-right: 1px solid #607B96;
+    background-color: transparent;
+    color: #607B96;
+    font-family: "Fira Code", serif;
+    height: 40px;
+}
+
+.ola,
+.sobre-mim,
+.projetos {
+    border: none;
+    border-right: 1px solid #607B96;
+    background-color: transparent;
+    color: #607B96;
+    font-family: "Fira Code", serif;
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.fale-comigo {
+    border: none;
+    border-left: 1px solid #607B96;
+    background-color: transparent;
+    color: #607B96;
+    font-family: "Fira Code", serif;
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nome:hover, 
+.ola:hover,
+.sobre-mim:hover,
+.projetos:hover,
+.fale-comigo:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #FEA55F;
+    color: white;
+}

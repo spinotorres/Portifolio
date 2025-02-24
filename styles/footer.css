@@ -1,0 +1,80 @@
+footer {
+    color: #607B96;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    height: 40px;
+    border-top: 1px solid #607B96;
+    font-size: 16px;
+}
+
+.encontre-me-button {
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    border-right: 1px solid #607B96;
+    background-color: transparent;
+    color: #607B96;
+    font-family: "Fira Code", serif;
+    height: 40px;
+}
+
+.x-logo,
+.linkedin-logo,
+.github-logo {
+    width: 20px;
+}
+
+.x-button:hover,
+.linkedin-button:hover,
+.github-button:hover {
+    border-top: 2px solid #FEA55F;
+}
+
+
+.footer-left-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.x-button,
+.linkedin-button {
+    border: none;
+    border-right: 1px solid #607B96;
+    background-color: transparent;
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer-right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-button {
+    border: none;
+    border-left: 1px solid #607B96;
+    color:#607B96;;
+    background-color: transparent;
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-logo {
+    padding-left: 10px;
+}
