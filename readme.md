@@ -11,14 +11,23 @@ Estrutura do Repositório
 O projeto está organizado da seguinte forma:
 
 📦 portfolio
+
  ┣ 📂 images          # Ícones e imagens utilizadas no projeto
+
  ┣ 📂 styles          # Arquivos CSS
+
  ┃ ┣ 📜 geral.css     # Estilos gerais
+
  ┃ ┣ 📜 header.css    # Estilos do cabeçalho
+
  ┃ ┣ 📜 main.css      # Estilos da seção principal
+
  ┃ ┗ 📜 footer.css    # Estilos do rodapé
+
  ┣ 📜 index.html      # Página principal do portfólio
+
  ┣ 📜 README.md       # Documentação do projeto
+ 
 
 ## Design & Estilos
 
